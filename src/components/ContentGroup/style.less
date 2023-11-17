@@ -1,0 +1,35 @@
+@import url('../../constants/cssVariable.less');
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #fff9f9;
+    border-radius: 8px 8px 0 0;
+
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: @mobile-color-primary;
+    }
+
+    .icon {
+      height: 16px;
+      width: 16px;
+      margin-left: 4px;
+    }
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+}

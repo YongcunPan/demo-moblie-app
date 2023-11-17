@@ -1,0 +1,31 @@
+@import url('constants/cssVariable.less');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+:root:root {
+  --adm-color-primary: @mobile-color-primary;
+}
+
+.loading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+  .tips {
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+  }
+}
